@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="header-1">
+        <div class="head">
+
+            <header>
+                <div class="logo">
+                    <div class="logo-text">
+                        <!-- name -->
+                    </div>
+                      <nav>
+                    <div class="New">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        
+
+                    </div>
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            </header>  
+
+
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="" alt="profile pic">
+                </div>
+
+                <div class="home-content">
+                    <h5>Hello I am <span class="">Frontend Developer</span></h5>
+                    <h1>Gaurav Deshmukh</h1>
+                    <p>I am a web Developer and currently studying new tools and technologies day by day. 
+                         I can design Websites and many more.....</p>
+    
+    
+                        <div class="home-sci">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/gaurav-deshmukh-049535268"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://instagram.com/f_gaurav_1?utm_source=qr&igshid=YzU1NGVlODEzOA=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+    
+    
+    
+                            <div class="btn-group">
+                                <a href="#" class="btn-box">Download CV</a>
+                            </div>
+    
+    
+    
+                        </div>
+    
+                </div>
+
+            </div>
+
+           
+            
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <script>
+        var New = document.querySelector(".New");
+        var nav = document.querySelector(".nav");
+        var links = document.querySelector(".nav li");
+
+        New.addEventListener("click",function(){
+            this.classList.New("click");
+            nav.classList.New("open");
+        })
+        var typed = new Typed("input",{
+            string:["Frontend Developer" , "MERN stack developer"," learning blockchain"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop:true
+        })
+    </script>
+</body>
+</html>
